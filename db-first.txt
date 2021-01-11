@@ -1,0 +1,34 @@
+AUTO CONCESSIONARIA
+
+Id						INT PRIMARY KEY(=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+Marca						VARCHAR(50), NOT NULL
+Modello					VARCHAR(50), NOT NULL
+Versione					VARCHAR(50), NULL
+Tipo_carrozzeria				VARCHAR(50), NULL
+Colore_esterni				VARCHAR(50), NULL
+Colore_interni				VARCHAR(50), NULL
+Immatricolazione				DATE, NOT NULL
+Prezzo						DECIMAL(10, 9), NOT NULL
+Paese						VARCHAR(50), NULL
+Locazione					VARCHAR(50), NOT NULL
+Carburante					VARCHAR(50), NOT NULL
+Chilometraggio 				DECIMAL(7, 6), NOT NULL
+Potenza_kw					SMALLINT, NULL
+Potenza_cv					SMALLINT, NULL
+Cambio						VARCHAR(50), NULL
+Numero_porte					TINYINT, NULL
+Numero_posti					TINYINT, NULL
+Equipaggiamento				TEXT, NULL							
+Classe_emissioni				TINYINT, NULL
+Precedenti_proprietari			TINYINT, NULL
+Garanzia					VARCHAR(100), NULL
+Tagliandi_certificati			VARCHAR(50), NULL
+Descrizione_veicolo			TEXT, NULL
+Disponibilità				TINYINT, NOT NULL
+Quantità					TINYINT, NOT NULL
+Fascia età					VARCHAR(50), NULL
+Note						TEXT, NULL
+
+
+
+
