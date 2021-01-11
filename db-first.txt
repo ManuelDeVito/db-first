@@ -4,15 +4,16 @@ Id - INT - PRIMARY KEY(=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
 Marca - VARCHAR(50) - NOT NULL
 Modello - VARCHAR(50) - NOT NULL
 Versione - VARCHAR(50) - NULL
+Targa - TINYINT - NOT NULL
 Tipo_carrozzeria - VARCHAR(50) - NULL
 Colore_esterni - VARCHAR(50) - NULL
 Colore_interni - VARCHAR(50) - NULL
 Immatricolazione - DATE - NOT NULL
-Prezzo - DECIMAL(10, 9) - NOT NULL
+Prezzo - DECIMAL(10, 2) - NOT NULL
 Paese - VARCHAR(50) - NULL
 Locazione - VARCHAR(50) - NOT NULL
 Carburante - VARCHAR(50) - NOT NULL
-Chilometraggio - DECIMAL(7, 6) - NOT NULL
+Chilometraggio - MEDIUMINT - NOT NULL
 Potenza_kw - SMALLINT - NULL
 Potenza_cv - SMALLINT - NULL
 Cambio - VARCHAR(50) - NULL
