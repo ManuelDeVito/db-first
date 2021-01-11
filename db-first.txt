@@ -9,7 +9,7 @@ Tipo_carrozzeria - VARCHAR(50) - NULL
 Colore_esterni - VARCHAR(50) - NULL
 Colore_interni - VARCHAR(50) - NULL
 Immatricolazione - DATE - NOT NULL
-Prezzo - DECIMAL(10, 2) - NOT NULL
+Prezzo - DECIMAL(7, 2) - NOT NULL
 Paese - VARCHAR(50) - NULL
 Locazione - VARCHAR(50) - NOT NULL
 Carburante - VARCHAR(50) - NOT NULL
