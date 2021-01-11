@@ -4,7 +4,7 @@ Id - INT - PRIMARY KEY(=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
 Marca - VARCHAR(50) - NOT NULL
 Modello - VARCHAR(50) - NOT NULL
 Versione - VARCHAR(50) - NULL
-Targa - TINYINT - NOT NULL
+Targa - VARCHAR(10) - NOT NULL
 Tipo_carrozzeria - VARCHAR(50) - NULL
 Colore_esterni - VARCHAR(50) - NULL
 Colore_interni - VARCHAR(50) - NULL
