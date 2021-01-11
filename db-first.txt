@@ -24,9 +24,9 @@ Precedenti_proprietari - TINYINT - NULL
 Garanzia - VARCHAR(100) - NULL
 Tagliandi_certificati - VARCHAR(50) - NULL
 Descrizione_veicolo - TEXT - NULL
-Disponibilità - TINYINT - NOT NULL, DEFAULT(1)
-Quantità - TINYINT - NOT NULL, DEFAULT(1)
-Fascia età - VARCHAR(50) - NULL
+Disponibilita - TINYINT - NOT NULL, DEFAULT(1)
+Quantita - TINYINT - NOT NULL, DEFAULT(1)
+Fascia_eta - VARCHAR(50) - NULL
 Note - TEXT - NULL
 
 
